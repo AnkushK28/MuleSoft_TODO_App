@@ -1,0 +1,23 @@
+%dw 2.0
+
+type auto_f68f3446_9475_4bd5_b741_007d31686f89_Output_Attributes = {|
+  clientCertificate?: {|
+    publicKey?: {|  |}, 
+    "type"?: String, 
+    encoded?: Binary
+  |}, 
+  headers: {|  |}, 
+  listenerPath: String, 
+  method: String, 
+  queryParams: {|  |}, 
+  queryString: String, 
+  relativePath: String, 
+  remoteAddress: String, 
+  requestPath: String, 
+  requestUri: String, 
+  scheme: String, 
+  uriParams: {| taskId: String |}, 
+  version: String, 
+  localAddress: String
+|}
+

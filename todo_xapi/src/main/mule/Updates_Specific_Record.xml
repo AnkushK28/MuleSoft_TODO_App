@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<sub-flow name="Updates_Specific_RecordSub_Flow" doc:id="f68f3446-9475-4bd5-b741-007d31686f89" >
+		<logger level="INFO" doc:name="Logger" doc:id="7b2c09b4-b5d6-4897-bb83-41cf5563f103" message="Start updated specific record flow"/>
+		<http:request method="GET" doc:name="Request" doc:id="39acca2d-1abe-4948-94d5-051257b49b03" />
+		<logger level="INFO" doc:name="Logger" doc:id="e17c761b-3e0f-4203-aa5d-eb735f16a0de" message="End updated specific record flow"/>
+	</sub-flow>
+</mule>

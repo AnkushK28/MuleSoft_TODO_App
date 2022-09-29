@@ -1,0 +1,30 @@
+#%RAML 1.0
+title: TODO Xapi
+
+/tasks:
+  description: Retrive all tasks from DB
+  get:
+    body:
+      application/json:
+    responses:
+      200:
+        body:
+          application/json:
+  /{taskId}:
+    description: Update specific task
+    put:
+      body:
+        application/json:
+      responses:
+        200:
+          body:
+            application/json:
+    get:
+      description: Retrive specific task
+      body:
+        application/json:
+      responses:
+        200:
+          
+        
+          

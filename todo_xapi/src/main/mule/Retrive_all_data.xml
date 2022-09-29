@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<sub-flow name="Retrive_all_dataSub_Flow" doc:id="aa82c870-0a83-4c1c-969e-bc99e0fae1c6" >
+		<logger level="INFO" doc:name="Logger" doc:id="d76a6b8c-63ce-466d-8981-0d0b5891492c" message="Start Retrive all data flow"/>
+		<http:request method="GET" doc:name="Request" doc:id="74ef0c22-8564-40f5-9ea2-06bfe6a8cb33" />
+		<logger level="INFO" doc:name="Logger" doc:id="b7abfc11-4b85-4028-9f9d-8ff8bcf07832" message="End Retrive all data flow"/>
+	</sub-flow>
+</mule>
